@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Suspense } from "react";
-import { Container, Header,  Link } from "./SharedLayout.styled";
+import { Container } from "./SharedLayout.styled";
 import { selectorLoggedIn } from "redux/auth/selectors";
 import { useSelector } from "react-redux";
 import { AppBar } from "./AppBar/AppBar";
