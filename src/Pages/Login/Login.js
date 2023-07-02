@@ -1,13 +1,12 @@
-// import { Helmet } from 'react-helmet';
 import { LoginForm } from 'components/LoginForm/LoginForm';
-
+import { WrapLogin } from './Login.styled';
 export default function Login() {
   return (
-    <div>
-      {/* <Helmet> */}
+    <WrapLogin>
+     
         <title>Login</title>
-      {/* </Helmet> */}
+    
       <LoginForm />
-    </div>
+    </WrapLogin>
   );
 }
