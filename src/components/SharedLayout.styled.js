@@ -17,9 +17,9 @@ export const Header = styled.header`
   margin-bottom: 16px;
   border-bottom: 1px solid black;
 
-  > nav {
-    display: flex;
-  }
+  // > nav {
+  //   display: flex;
+  // }
 `;
 
 export const Link = styled(NavLink)`

@@ -5,7 +5,7 @@ export const Header = styled.header`
     align-items: baseline;
     justify-content: space-between;
     padding:1%;
-    max-width:780px;
+    max-width:1200px;
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 5%;
