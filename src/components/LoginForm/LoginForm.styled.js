@@ -14,7 +14,22 @@ export const Label = styled.label`
     flex-direction: column;
     margin-bottom: 15px;
     gap: 6px;
+
+    font-size: 22px;
 `;
+
+
+export const Input = styled.input`
+    padding-left:15px;
+    font-size:30px;
+    border: 2px solid  black;
+    border-radius: 10px;
+    &:hover {
+    border: 2px solid  teal;
+  }
+
+`;
+
 
 export const Button = styled.button`
     font-size: 16px;

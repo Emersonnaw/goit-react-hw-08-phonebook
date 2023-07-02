@@ -20,6 +20,7 @@ export const LabelCastom = styled.label`
     flex-direction: column;
     margin-bottom: 15px;
     gap: 6px;
+    font-size: 22px;
 `;
 
 export const InputCastom = styled(Field)`
