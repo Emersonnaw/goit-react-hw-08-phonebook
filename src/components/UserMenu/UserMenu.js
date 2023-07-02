@@ -3,8 +3,6 @@ import { selectorUser } from 'redux/auth/selectors';
 import { logOut } from 'redux/auth/operations';
 import {Wrap, P, Button} from './UserMenu.styled'
 
-
-
 export const UserMenu = () => {
     const dispatch = useDispatch();
     const userName = useSelector(selectorUser);   
